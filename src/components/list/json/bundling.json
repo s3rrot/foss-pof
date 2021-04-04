@@ -1,0 +1,21 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Bundling ==",
+      "items": [
+        {
+          "text": "* Your source only comes with other code projects that it depends on [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* If your source code cannot be built without first building the bundled code bits [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* If you have modified those other bundled code bits [ +40 points of FAIL ]",
+          "value": 40
+        }
+      ]
+    }
+  ]
+}

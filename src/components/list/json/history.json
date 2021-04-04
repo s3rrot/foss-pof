@@ -1,0 +1,34 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== History ==",
+      "items": [
+        {
+          "text": "* Your code is a fork of another project [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your primary developers were not involved with the parent project [ +50 points of FAIL ]",
+          "value": 50
+        },
+        {
+          "pre": "* Until open sourcing it, your code was proprietary for:",
+          "text": "* 1-2 years [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* 3-5 years [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* 6-10 years [ +30 points of FAIL ]",
+          "value": 30
+        },
+        {
+          "text": "* 10+ years [ +50 points of FAIL ]",
+          "value": 50
+        }
+      ]
+    }
+  ]
+}

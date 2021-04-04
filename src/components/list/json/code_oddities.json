@@ -1,0 +1,25 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Code Oddities ==",
+      "items": [
+        {
+          "text": "* Your code uses Windows line breaks ('DOS format' files) [ +5 points of FAIL ]",
+          "value": 5
+        },
+        {
+          "text": "* Your code depends on specific compiler feature functionality [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your code depends on specific compiler bugs [ +50 points of FAIL ]",
+          "value": 50
+        },
+        {
+          "text": "* Your code depends on Microsoft Visual Anything [ +100 points of FAIL ]",
+          "value": 100
+        }
+      ]
+    }
+  ]
+}

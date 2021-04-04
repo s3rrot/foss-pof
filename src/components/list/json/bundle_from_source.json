@@ -1,0 +1,45 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Building From Source ==",
+      "items": [
+        {
+          "text": "* There is no documentation on how to build from source [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* If documentation exists on how to build from source, but it doesn't work [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your source is configured with a handwritten shell script [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your source is configured editing flat text config files [ +20 points of FAIL]",
+          "value": 20
+        },
+        {
+          "text": "* Your source is configured by editing code header files manually [ +30 points of FAIL ]",
+          "value": 30
+        },
+        {
+          "text": "* Your source isn't configurable [ +50 points of FAIL ]",
+          "value": 50
+        },
+        {
+          "text": "* Your source builds using something that isn't GNU Make [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your source only builds with third-party proprietary build tools [ +50 points of FAIL ]",
+          "value": 50
+        },
+        {
+          "text": "* You've written your own build tool for this code [ +100 points of FAIL ]",
+          "value": 100
+        }
+      ]
+    }
+  ]
+}

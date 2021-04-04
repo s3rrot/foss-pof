@@ -1,0 +1,29 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Licensing ==",
+      "items": [
+        {
+          "text": "* Your code does not have per-file licensing [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your code contains inherent license incompatibilities [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your code does not have any notice of licensing intent [ +30 points of FAIL ]",
+          "value": 30
+        },
+        {
+          "text": "* Your code doesn't include a copy of the license text [ +50 points of FAIL ]",
+          "value": 50
+        },
+        {
+          "text": "* Your code doesn't have a license [ +100 points of FAIL ]",
+          "value": 100
+        }
+      ]
+    }
+  ]
+}

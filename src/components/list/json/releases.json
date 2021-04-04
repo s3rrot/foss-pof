@@ -1,0 +1,57 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Releases ==",
+      "items": [
+        {
+          "text": "* Your project does not do sanely versioned releases (Major, Minor) [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your project does not do versioned releases [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your project does not do releases [ +50 points of FAIL ]",
+          "value": 50
+        },
+        {
+          "text": "* Your project only does releases as attachments in web forum posts [ +100 points of FAIL ]",
+          "value": 100
+        },
+        {
+          "text": "* Your releases are only in .zip format [ +5 points of FAIL ]",
+          "value": 5
+        },
+        {
+          "text": "* Your releases are only in OSX .zip format [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your releases are only in .rar format [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your releases are only in .arj format [ +50 points of FAIL ]",
+          "value": 50
+        },
+        {
+          "text": "* Your releases are only in an encapsulation format that you invented. [ +100 points of FAIL ]",
+          "value": 100
+        },
+        {
+          "text": "* Your release does not unpack into a versioned top-level directory (e.g. glibc-2.4.2/ ) [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your release does not unpack into a top-level directory (e.g. glibc/ ) [ +25 points of FAIL ]",
+          "value": 25
+        },
+        {
+          "text": "* Your release unpacks into an absurd number of directories (e.g. home/johndoe/glibc-svn/tarball/glibc/src/) [ +50 points of FAIL ]",
+          "value": 50
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Source Control ==",
+      "items": [
+        {
+          "text": "* There is no publicly available source control (e.g. cvs, svn, bzr, git) [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "pre": "* There is publicly available source control, but:",
+          "text": "* There is no web viewer for it [ +5 points of FAIL ]",
+          "value": 5
+        },
+        {
+          "text": "* There is no documentation on how to use it for new users [ +5 points of FAIL ]",
+          "value": 5
+        },
+        {
+          "text": "* You've written your own source control for this code [ +30 points of FAIL ]",
+          "value": 30
+        },
+        {
+          "text": "* You don't actually use the existing source control [ +50 points of FAIL ]",
+          "value": 50
+        } 
+      ]
+    }
+  ]
+}

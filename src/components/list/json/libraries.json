@@ -1,0 +1,21 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Libraries ==",
+      "items": [
+        {
+          "text": "* Your code only builds static libraries [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your code can build shared libraries, but only unversioned ones [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your source does not try to use system libraries if present [ +20 points of FAIL ]",
+          "value": 20
+        }
+      ]
+    }
+  ]
+}

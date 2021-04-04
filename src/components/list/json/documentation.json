@@ -1,0 +1,21 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Documentation ==",
+      "items": [
+        {
+          "text": "* Your code doesn't have a changelog [+10 points of FAIL]",
+          "value": 10
+        },
+        {
+          "text": "* Your code doesn't have any documentation [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your website doesn't have any documentation [ +30 points of FAIL ]",
+          "value": 30
+        }
+      ]
+    }
+  ]
+}

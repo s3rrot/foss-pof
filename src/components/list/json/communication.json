@@ -1,0 +1,29 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Communication ==",
+      "items": [
+        {
+          "text": "* Your project does not announce releases on a mailing list [ +5 points of FAIL ]",
+          "value": 5
+        },
+        {
+          "text": "* Your project does not have a mailing list [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your project does not have a bug tracker [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your project does not have a website [ +50 points of FAIL]",
+          "value": 50
+        },
+        {
+          "text": "* Your project is sourceforge vaporware [ +100 points of FAIL ]",
+          "value": 100
+        }
+      ]
+    }
+  ]
+}

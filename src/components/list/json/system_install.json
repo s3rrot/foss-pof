@@ -1,0 +1,21 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== System Install ==",
+      "items": [
+        {
+          "text": "* Your code tries to install into /opt or /usr/local [ +10 points of FAIL ]",
+          "value": 10
+        },
+        {
+          "text": "* Your code has no 'make install' [ +20 points of FAIL ]",
+          "value": 20
+        },
+        {
+          "text": "* Your code doesn't work outside of the source directory [ +30 points of FAIL ]",
+          "value": 30
+        }
+      ]
+    }
+  ]
+}

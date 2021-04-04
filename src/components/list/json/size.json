@@ -1,0 +1,17 @@
+{
+  "fieldsets": [
+    {
+      "legend": "== Size ==",
+      "items": [
+        {
+          "text": "* The source code is more than 100 MB. [ +5 points of FAIL ]",
+          "value": 5
+        },
+        {
+          "text": "* If the source code also exceeds 100 MB when it is compressed [ +5 points of FAIL ]",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}
