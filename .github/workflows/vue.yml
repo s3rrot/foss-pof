@@ -1,0 +1,35 @@
+name: Deploy to Github Pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  gh-pages-deploy:
+    name: Deploying to Github Pages
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - uses: actions/setup-node@v2
+          with:
+            node-version: '12'
+        - name: Install packages
+          run: yarn install
+        - name: Set Creds
+          run: git config --global init.defaultBranch main && git config user.name "s3rrot" && git config user.email "s3rrot@gmail.com"
+        - name: Build
+          run: |
+            yarn run build
+            cd dist
+            git init
+            git config init.defaultBranch main
+            git config user.name 's3rrot'
+            git config user.email 's3rrot@users.noreply.github.com'
+            git add -A
+            git commit -m 'deploy'
+        - name: Deploy
+          uses: ad-m/github-push-action@master
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: gh-pages
+            directory: dist
+            force: true
